@@ -2,7 +2,8 @@ const person = {
     name: 'Mahfuz',
     job: 'Founder at Learn With Mahfuz',
     2: 'second',
-    'add-dress': 'Sylhet'
+    'add dress': 'Sylhet',
+    'coun-try': 'Bangladesh'
 }
 
 console.log(person.job);
@@ -11,4 +12,5 @@ console.log(person['job']);
 // console.log(person.2); // error
 console.log(person['2']);
 // console.log(person.add-dress); // error
-console.log(person["add-dress"]);
+console.log(person["add dress"]);
+console.log(person["coun-try"]);
