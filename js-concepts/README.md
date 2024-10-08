@@ -1,6 +1,6 @@
 # JavaScript Concepts
 
-### What Really Is JavaScript?
+## What Really Is JavaScript?
 
 JS is a highly abstracted programming language.  
 **Abstraction:** hiding the implementation details, showing only the functionality to the user.
@@ -26,4 +26,10 @@ JS is dynamically typed.
 - JIT Compiled
 - Multi-paradigm
 - Prototyped-based
-- Dynamically-typed
+- Dynamically-typed  
+
+## JavaScript Engine V8 Internal Mechanism  
+
+**What is V8:** V8 is Google’s open source high-performance JavaScript and WebAssembly engine, written in C++.  It is used in Chrome and in Node.js [...See more](https://v8.dev/)  
+
+JS execute in chrome browser by V8 engine.
