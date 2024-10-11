@@ -84,3 +84,6 @@ The Promise object represents the eventual completion (or failure) of an asynchr
 1. The fetch() method starts the process of fetching a resource from a server
 2. The fetch() method returns a Promise that resolves to a Response object
 3. A fetch() method only rejects when a network error is encountered
+
+## Event-loop
+Click [here](https://www.youtube.com/watch?v=8aGhZQkoFbQ) for watching YT video [Duration: 26:52]
