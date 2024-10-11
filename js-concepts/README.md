@@ -64,3 +64,13 @@ The execution context is created in two phases:
 - The call stack is used by JS to keep track of multiple function calls
 - In order to manage the execution contexts, the JS engine used a call stack
 
+## Single-Threaded
+JS is Single-Threaded.
+- Single-threaded means only one statement is executed at a time
+- JS only has one call stack
+- JS runs code line by line
+- Must finish executing a piece of code before moving onto the next
+
+**Synchronous:** Loading serial wise (sequentially)
+**Asynchronous:** Loading at their own pace, none is waiting for any of others (Ex. setTimeout())
+
