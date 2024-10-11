@@ -74,3 +74,13 @@ JS is Single-Threaded.
 **Synchronous:** Loading serial wise (sequentially)
 **Asynchronous:** Loading at their own pace, none is waiting for any of others (Ex. setTimeout())
 
+## Promise
+The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value. A promise is in one of these status:
+1. Pending
+2. Resolve
+3. Reject
+
+**Fetch API:**
+1. The fetch() method starts the process of fetching a resource from a server
+2. The fetch() method returns a Promise that resolves to a Response object
+3. A fetch() method only rejects when a network error is encountered
