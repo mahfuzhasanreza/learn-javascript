@@ -87,3 +87,8 @@ The Promise object represents the eventual completion (or failure) of an asynchr
 
 ## Event-loop
 Click [here](https://www.youtube.com/watch?v=8aGhZQkoFbQ) for watching YT video [Duration: 26:52]
+
+## Promise All
+- A JS method that takes an iterable of promises as input
+- Returns a single promise that resolves when all input promises have resolved
+- Rejects if any of the input promises reject
