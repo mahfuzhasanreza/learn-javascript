@@ -1,5 +1,5 @@
 const student = {
-    name='mahfuz',
+    name: 'mahfuz',
     profession: 'student',
     age: 17,
     25: 'winter',
